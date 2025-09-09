@@ -125,22 +125,22 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
   const menuItems = [
     {
       icon: Film,
-      label: '电影',
+      label: 'VIP画质-电影',
       href: '/douban?type=movie',
     },
     {
       icon: Tv,
-      label: '剧集',
+      label: 'VIP画质-剧集',
       href: '/douban?type=tv',
     },
     {
       icon: Clover,
-      label: '综艺',
+      label: 'VIP画质-综艺',
       href: '/douban?type=show',
     },
     {
       icon: Settings,
-      label: 'TVBox配置',
+      label: 'VIP画质TV配置',
       href: '/config',
     },
   ];
@@ -196,7 +196,7 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
                 </div>
                 {!isCollapsed && (
                   <span className='whitespace-nowrap transition-opacity duration-200 opacity-100'>
-                    首页
+                    全球-高端-首页
                   </span>
                 )}
               </Link>
@@ -217,7 +217,7 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
                 </div>
                 {!isCollapsed && (
                   <span className='whitespace-nowrap transition-opacity duration-200 opacity-100'>
-                    搜索
+                    全球-搜索-引擎
                   </span>
                 )}
               </Link>
