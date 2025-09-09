@@ -18,21 +18,21 @@ const MobileBottomNav = ({ activePath }: MobileBottomNavProps) => {
   const currentActive = activePath ?? pathname;
 
   const navItems = [
-    { icon: Home, label: '全球-高端-首页', href: '/' },
-    { icon: Search, label: '全球-搜索-引擎', href: '/search' },
+    { icon: Home, label: '首页', href: '/' },
+    { icon: Search, label: '搜索', href: '/search' },
     {
       icon: Film,
-      label: 'VIP画质-电影',
+      label: '电影',
       href: '/douban?type=movie',
     },
     {
       icon: Tv,
-      label: 'VIP画质-剧集',
+      label: '剧集',
       href: '/douban?type=tv',
     },
     {
       icon: Clover,
-      label: 'VIP画质-综艺',
+      label: '综艺',
       href: '/douban?type=show',
     },
   ];
