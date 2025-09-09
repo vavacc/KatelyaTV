@@ -46,27 +46,27 @@ const TopNavbar = ({ activePath = '/' }: { activePath?: string }) => {
   const menuItems = [
     {
       icon: Home,
-      label: '首页',
+      label: '全球-高端-首页',
       href: '/',
     },
     {
       icon: Search,
-      label: '搜索',
+      label: '全球-搜索-引擎',
       href: '/search',
     },
     {
       icon: Film,
-      label: '电影',
+      label: 'VIP画质-电影',
       href: '/douban?type=movie',
     },
     {
       icon: Tv,
-      label: '剧集',
+      label: 'VIP画质-剧集',
       href: '/douban?type=tv',
     },
     {
       icon: Clover,
-      label: '综艺',
+      label: 'VIP画质-综艺',
       href: '/douban?type=show',
     },
   ];
